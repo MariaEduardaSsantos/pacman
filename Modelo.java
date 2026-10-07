@@ -3,16 +3,14 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.io.File;
+import java.io.IOException;
 import java.util.Random;
-
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
-import java.io.File;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
-import java.io.IOException;
-
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import javax.swing.Timer;
@@ -214,16 +212,16 @@ public class Modelo extends JPanel implements ActionListener {
     
 
     private void carregarImagens() {
-        baixo = new ImageIcon("C:/Users/ANA CLAUDIA/Downloads/teste/Lixeira FRENTE.gif").getImage();
-        cima = new ImageIcon("C:/Users/ANA CLAUDIA/Downloads/teste/Lixeira costas.gif").getImage();
-        esquerda = new ImageIcon("C:/Users/ANA CLAUDIA/Downloads/teste/Lixeira lado esquerdo.gif").getImage();
-        direita = new ImageIcon("C:/Users/ANA CLAUDIA/Downloads/teste/Lixeira lado direito.gif").getImage();
-        fantasmaFase1 = new ImageIcon("C:/Users/ANA CLAUDIA/Downloads/teste/Maçã DIREITA.gif").getImage();
-        fantasmaFase2 = new ImageIcon("C:/Users/ANA CLAUDIA/Downloads/teste/Garrafa2.1.gif").getImage();
-        fantasmaFase3 = new ImageIcon("C:/Users/ANA CLAUDIA/Downloads/teste/metal.gif").getImage();
-        fantasmaFase4 = new ImageIcon("C:/Users/ANA CLAUDIA/Downloads/teste/papel.gif").getImage();
-        coracao = new ImageIcon("C:/Users/ANA CLAUDIA/OneDrive/Desktop/Imagens_APS/heart.png").getImage();
-        fundo = new ImageIcon("C:/Users/ANA CLAUDIA/OneDrive/Desktop/Imagens_APS/fundo.jpg").getImage();
+        baixo = new ImageIcon("C:/Users/dudan/OneDrive/Desktop/PacMan/Imagens_APS/Lixeira FRENTE.gif").getImage();
+        cima = new ImageIcon("C:/Users/dudan/OneDrive/Desktop/PacMan/Imagens_APS/Lixeira costas.gif").getImage();
+        esquerda = new ImageIcon("C:/Users/dudan/OneDrive/Desktop/PacMan/Imagens_APS/Lixeira lado esquerdo.gif").getImage();
+        direita = new ImageIcon("C:/Users/dudan/OneDrive/Desktop/PacMan/Imagens_APS/Lixeira lado direito.gif").getImage();
+        fantasmaFase1 = new ImageIcon("C:/Users/dudan/OneDrive/Desktop/PacMan/Imagens_APS/ghost.gif").getImage();
+        fantasmaFase2 = new ImageIcon("C:/Users/dudan/OneDrive/Desktop/PacMan/Imagens_APS/Garrafa2.1.gif").getImage();
+        fantasmaFase3 = new ImageIcon("C:/Users/dudan/OneDrive/Desktop/PacMan/Imagens_APS/metal.gif").getImage();
+        fantasmaFase4 = new ImageIcon("C:/Users/dudan/OneDrive/Desktop/PacMan/Imagens_APS/papel.gif").getImage();
+        coracao = new ImageIcon("C:/Users/dudan/OneDrive/Desktop/PacMan/Imagens_APS/heart.png").getImage();
+        fundo = new ImageIcon("C:/Users/dudan/OneDrive/Desktop/PacMan/Imagens_APS/fundo.jpg").getImage();
         
     }
     

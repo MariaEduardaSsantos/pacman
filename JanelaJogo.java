@@ -1,10 +1,10 @@
+import java.awt.BorderLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import java.awt.BorderLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import javax.swing.SwingConstants; // Import para alinhar o texto
 
 public class JanelaJogo extends JFrame {
@@ -22,7 +22,7 @@ public class JanelaJogo extends JFrame {
         painelPrincipal.setLayout(new BorderLayout());
 
         // Carrega a imagem
-        ImageIcon imagemIcon = new ImageIcon("C:/Users/ANA CLAUDIA/OneDrive/Desktop/Imagens_APS/Tela INicial.gif");
+        ImageIcon imagemIcon = new ImageIcon("C:/Users/dudan/OneDrive/Desktop/PacMan/Imagens_APS/Tela INicial.gif");
 
         // Cria o botão com a imagem
         iniciarBotao = new JButton("", imagemIcon);
